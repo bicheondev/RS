@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo">
+  <data type="other_db">
+    <location href="repodata/other.sqlite.bz2"/>
+    <checksum type="sha">82a133260cccd918f88e30fab8bb31b58c221891</checksum>
+    <timestamp>1370263530</timestamp>
+    <open-checksum type="sha">e02057ac1863a217fbfc0df89806d6adadea8cac</open-checksum>
+    <database_version>10</database_version>
+  </data>
+  <data type="other">
+    <location href="repodata/other.xml.gz"/>
+    <checksum type="sha">728b0fa2750f6ae43ea97779d86d8f60bed582b4</checksum>
+    <timestamp>1370263527</timestamp>
+    <open-checksum type="sha">81df47d4ee0d82f062817ff5f9f50f751f30a6f0</open-checksum>
+  </data>
+  <data type="filelists_db">
+    <location href="repodata/filelists.sqlite.bz2"/>
+    <checksum type="sha">ba83851bddeccb92af83be037b846453abdce5ae</checksum>
+    <timestamp>1370263532</timestamp>
+    <open-checksum type="sha">edf892760b618a2a0ea352702c821c0d46760c60</open-checksum>
+    <database_version>10</database_version>
+  </data>
+  <data type="filelists">
+    <location href="repodata/filelists.xml.gz"/>
+    <checksum type="sha">cfcf48ffe44370299834626211b110f44977e195</checksum>
+    <timestamp>1370263527</timestamp>
+    <open-checksum type="sha">4e8118d9fb39447d2d6b2510ca2df888848d483f</open-checksum>
+  </data>
+  <data type="primary_db">
+    <location href="repodata/primary.sqlite.bz2"/>
+    <checksum type="sha">7b2c56c699c79b20cbe01d0db6ea3518413de4ba</checksum>
+    <timestamp>1370263533</timestamp>
+    <open-checksum type="sha">e21da323e934b8c30ee88f284228b491bcbcf8e9</open-checksum>
+    <database_version>10</database_version>
+  </data>
+  <data type="primary">
+    <location href="repodata/primary.xml.gz"/>
+    <checksum type="sha">054219cef0538a91d7f5c067d4f59e6b4b862130</checksum>
+    <timestamp>1370263527</timestamp>
+    <open-checksum type="sha">57ca8e8105380ca6e00358f7dc15f9e7e106f3e2</open-checksum>
+  </data>
+  <data type="group">
+    <location href="repodata/comps.xml"/>
+    <checksum type="sha">d4a15dc7a0c9faf7b338f47706acddb971562909</checksum>
+    <timestamp>1369475219</timestamp>
+  </data>
+</repomd>

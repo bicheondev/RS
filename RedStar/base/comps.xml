@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE newcomps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+
+    <group>
+    	<id>Addressbook</id>
+    	<name>Address Book</name>
+    	<name xml:lang="ko_KP">주소록</name>
+    	<description>This package contains Address Book.</description>
+    	<description xml:lang="ko_KP">주소록관리 프로그람을 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">AddressBook</packagereq>
+    	</packagelist>
+    </group>
+    
+    <group>
+    	<id>eclipse</id>
+    	<name>Eclipse Environment Kit</name>
+    	<name xml:lang="ko_KP">Java개발도구</name>
+    	<description>This package contains Eclipse Development Tools</description>
+    	<description xml:lang="ko_KP">통합개발도구 어깨동무프로그람을 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">companero</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>flash</id>
+    	<name>Flash Player</name>
+    	<name xml:lang="ko_KP">SWF재생기</name>
+    	<description>This package contains SWF player</description>
+    	<description xml:lang="ko_KP">SWF재생기를 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+         <packagereq type="default">agg</packagereq>
+         <packagereq type="default">gnash</packagereq>
+         <packagereq type="default">gnash-plugin</packagereq>
+    	</packagelist>
+    </group>
+    
+    <group>
+    	<id>logviewer</id>
+    	<name>log browser</name>
+    	<name xml:lang="ko_KP">통합기록열람기</name>
+    	<description>This package contains log browser.</description>
+    	<description xml:lang="ko_KP">기록열람기를 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+         <packagereq type="default">rslogbrowser</packagereq>
+    	</packagelist>
+    </group>
+    
+    <group>
+    	<id>bokem</id>
+    	<name>File System Encrypt</name>
+    	<name xml:lang="ko_KP">보검</name>
+    	<description>This package contains filesystem encrypt tool-bokem</description>
+    	<description xml:lang="ko_KP">파일체계암호화도구 보검을 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+         <packagereq type="default">bokem3</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>compress</id>
+    	<name>File Compress</name>
+    	<name xml:lang="ko_KP">압축파일관리프로그람</name>
+    	<description>This package contains file compress</description>
+    	<description xml:lang="ko_KP">파일압축도구를 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+         <packagereq type="default">Compress</packagereq>
+    	</packagelist>
+    </group>
+    
+    <group>
+    	<id>lamp</id>
+    	<name>LAMP</name>
+    	<name xml:lang="ko_KP">APM환경관리기</name>
+    	<description>This package contains LAMP(Linux Apache MySQL PHP).</description>
+    	<description xml:lang="ko_KP">LAMP(Linux Apache MySQL PHP)를 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">MySQL-server</packagereq>
+    	    <packagereq type="default">httpd</packagereq>
+    	    <packagereq type="default">httpd-manual</packagereq>
+    	    <packagereq type="default">httpd-tools</packagereq>
+    	    <packagereq type="default">mailcap</packagereq>
+    	    <packagereq type="default">mod_ssl</packagereq>
+    	    <packagereq type="default">php</packagereq>
+    	    <packagereq type="default">php-bcmath</packagereq>
+    	    <packagereq type="default">php-cli</packagereq>
+    	    <packagereq type="default">php-common</packagereq>
+    	    <packagereq type="default">php-dba</packagereq>
+    	    <packagereq type="default">php-embedded</packagereq>
+    	    <packagereq type="default">php-enchant</packagereq>
+    	    <packagereq type="default">php-gd</packagereq>
+    	    <packagereq type="default">php-imap</packagereq>
+    	    <packagereq type="default">php-intl</packagereq>
+    	    <packagereq type="default">php-ldap</packagereq>
+    	    <packagereq type="default">php-mbstring</packagereq>
+    	    <packagereq type="default">php-mysql</packagereq>
+    	    <packagereq type="default">php-odbc</packagereq>
+    	    <packagereq type="default">php-pdo</packagereq>
+    	    <packagereq type="default">php-pgsql</packagereq>
+    	    <packagereq type="default">php-process</packagereq>
+    	    <packagereq type="default">php-pspell</packagereq>
+    	    <packagereq type="default">php-recode</packagereq>
+    	    <packagereq type="default">php-snmp</packagereq>
+    	    <packagereq type="default">php-soap</packagereq>
+    	    <packagereq type="default">php-tidy</packagereq>
+    	    <packagereq type="default">php-xml</packagereq>
+    	    <packagereq type="default">php-xmlrpc</packagereq>
+    	    <packagereq type="default">php-zts</packagereq>
+    	    <packagereq type="default">php-frameworks-library</packagereq>
+    	    <packagereq type="default">modsecurity</packagereq>
+    	    <packagereq type="default">APM-Manager</packagereq>
+    	    <packagereq type="default">perl-DBD-MySQL</packagereq>
+    	    <packagereq type="default">sat</packagereq>
+    	    <packagereq type="default">mysql-query-browser</packagereq>
+    	    <packagereq type="default">mysql-gui-tools</packagereq>
+    	    <packagereq type="default">gtkmm24</packagereq>
+    	    <packagereq type="default">pangomm</packagereq>
+    	    <packagereq type="default">glibmm24</packagereq>
+    	    <packagereq type="default">cairomm</packagereq>
+    	    <packagereq type="default">libsigc++20</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>chmviewer</id>
+    	<name>CHM Viewer</name>
+    	<name xml:lang="ko_KP">CHM파일열람기</name>
+    	<description>This package contains CHM viewer</description>
+    	<description xml:lang="ko_KP">CHM파일열람기를 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">chmviewer</packagereq>
+    	    <packagereq type="default">chmlib</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>MusicScore</id>
+    	<name>MusicScore</name>
+    	<name xml:lang="ko_KP">은방울</name>
+    	<description>This package contains MusicScore</description>
+    	<description xml:lang="ko_KP">악보편집기 은방울을 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">MusicScore</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>rgjanggi</id>
+    	<name>Ru Gyong Korean Chess</name>
+    	<name xml:lang="ko_KP">류경장기</name>
+    	<description>This package contains Korean Chess</description>
+    	<description xml:lang="ko_KP">류경장기를 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">rgjanggi</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>chmviewer</id>
+    	<name>CHM Viewer</name>
+    	<name xml:lang="ko_KP">CHM문서열람기</name>
+    	<description>This package contains chm viewer</description>
+    	<description xml:lang="ko_KP">CHM문서 열람기를 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">chmviewer</packagereq>
+    	    <packagereq type="default">chmlib</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>kCal</id>
+    	<name>kCal</name>
+    	<name xml:lang="ko_KP">일정계획</name>
+    	<description>This package contains kCal.</description>
+    	<description xml:lang="ko_KP">일정관리프로그람을 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">kcal</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>Mail</id>
+    	<name>Mail</name>
+    	<name xml:lang="ko_KP">우편</name>
+    	<description>This package contains mail client.</description>
+    	<description xml:lang="ko_KP">전자우편의뢰기를 설치합니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">bluemail</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+    	<id>crosswin</id>
+    	<name>Crosswin</name>
+    	<name xml:lang="ko_KP">《만능》3.0</name>
+    	<description>This package contains wine.</description>
+    	<description xml:lang="ko_KP">Windows환경지원프로그람을 설치합니다.</description>
+    	<default>false</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+    	    <packagereq type="default">crosswin</packagereq>
+    	</packagelist>
+    </group>
+
+    <group>
+	<id>Firefox</id>
+	<name>Firefox</name>
+	<name xml:lang="ko_KP">내나라열람기3.5</name>
+	<description>This package contains firefox web browser.</description>
+	<description xml:lang="ko_KP">내나라열람기를 설치합니다.</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">firefox</packagereq>
+    	    <packagereq type="default">xulrunner</packagereq>
+    	    <packagereq type="default">mozilla-filesystem</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>Keychain</id>
+	<name>Key Store</name>
+	<name xml:lang="ko_KP">열쇠보관함</name>
+	<description>This package contains Keychain Tools</description>
+	<description xml:lang="ko_KP">체계용 암호관리 프로그람 열쇠관리도구를 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">keystore</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>SysPro</id>
+	<name>System Profiler</name>
+	<name xml:lang="ko_KP">체계속성열람기</name>
+	<description>This package contains System Profiler</description>
+	<description xml:lang="ko_KP">체계속성열람기를 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">systemprofiler</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>FontBook</id>
+	<name>Font Book</name>
+	<name xml:lang="ko_KP">서체집</name>
+	<description>This package contains FontBook</description>
+	<description xml:lang="ko_KP">서체집을 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">fontbook</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>PhotoBooth</id>
+	<name>Photo Booth</name>
+	<name xml:lang="ko_KP">사진기</name>
+	<description>This package contains Photo Booth</description>
+	<description xml:lang="ko_KP">카메라구동프로그람을 설치합니다</description>
+	<default>false</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">photobooth</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>Stickies</id>
+	<name>Stickies</name>
+	<name xml:lang="ko_KP">기록편집기</name>
+	<description>This package contains Stickies</description>
+	<description xml:lang="ko_KP">기록편집기를 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">Stickies</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>PDFEditor</id>
+	<name>PDF Editor</name>
+	<name xml:lang="ko_KP">PDF편집기</name>
+	<description>This package contains PDF Editor</description>
+	<description xml:lang="ko_KP">PDF편집기를 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">pdfeditor</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>office</id>
+	<name>SG Office</name>
+	<name xml:lang="ko_KP">서광사무처리</name>
+	<description>This group is a collection of packages for official programs.</description>
+	<description xml:lang="ko_KP">여러가지 사무처리 프로그람들의 모임입니다. </description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">sgobasis3.0-base</packagereq>
+    	    <packagereq type="default">sgobasis3.0-calc</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core01</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core02</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core03</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core04</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core05</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core06</packagereq>
+    	    <packagereq type="default">sgobasis3.0-core07</packagereq>
+    	    <packagereq type="default">sgobasis3.0-draw</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US-base</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US-calc</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US-math</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US-res</packagereq>
+    	    <packagereq type="default">sgobasis3.0-en-US-writer</packagereq>
+    	    <packagereq type="default">sgobasis3.0-gnome-integration</packagereq>
+    	    <packagereq type="default">sgobasis3.0-graphicfilter</packagereq>
+    	    <packagereq type="default">sgobasis3.0-images</packagereq>
+    	    <packagereq type="default">sgobasis3.0-impress</packagereq>
+    	    <packagereq type="default">sgobasis3.0-javafilter</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko-base</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko-calc</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko-math</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko-res</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ko-writer</packagereq>
+    	    <packagereq type="default">sgobasis3.0-math</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ogltrans</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ooofonts</packagereq>
+    	    <packagereq type="default">sgobasis3.0-ooolinguistic</packagereq>
+    	    <packagereq type="default">sgobasis3.0-pyuno</packagereq>
+    	    <packagereq type="default">sgobasis3.0-writer</packagereq>
+    	    <packagereq type="default">sgobasis3.0-xsltfilter</packagereq>
+    	    <packagereq type="default">sgoffice3.0</packagereq>
+    	    <packagereq type="default">sgoffice3.0-base</packagereq>
+    	    <packagereq type="default">sgoffice3.0-calc</packagereq>
+    	    <packagereq type="default">sgoffice3.0-dict-en</packagereq>
+    	    <packagereq type="default">sgoffice3.0-dict-es</packagereq>
+    	    <packagereq type="default">sgoffice3.0-dict-fr</packagereq>
+    	    <packagereq type="default">sgoffice3.0-draw</packagereq>
+    	    <packagereq type="default">sgoffice3.0-en-US</packagereq>
+    	    <packagereq type="default">sgoffice3.0-freedesktop-menus</packagereq>
+    	    <packagereq type="default">sgoffice3.0-help</packagereq>
+    	    <packagereq type="default">sgoffice3.0-impress</packagereq>
+    	    <packagereq type="default">sgoffice3.0-ko</packagereq>
+    	    <packagereq type="default">sgoffice3.0-math</packagereq>
+    	    <packagereq type="default">sgoffice3.0-stdlibs</packagereq>
+    	    <packagereq type="default">sgoffice3.0-ure</packagereq>
+    	    <packagereq type="default">sgoffice3.0-writer</packagereq>
+
+	</packagelist>
+    </group>
+  
+    <group>
+	<id>Networkutility</id>
+	<name>Network Utility</name>
+	<name xml:lang="ko_KP">망편의프로그람</name>
+	<description>This package contains Network Utility</description>
+	<description xml:lang="ko_KP">망편의프로그람을 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">networkutility</packagereq>
+    	    <packagereq type="default">bind-libs</packagereq>
+    	    <packagereq type="default">bind-utils</packagereq>
+    	    <packagereq type="default">jwhois</packagereq>
+    	    <packagereq type="default">finger</packagereq>
+    	    <packagereq type="default">traceroute</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>Gimp</id>
+	<name>Gimp</name>
+	<name xml:lang="ko_KP">환상</name>
+	<description>This package contains Gimp</description>
+	<description xml:lang="ko_KP">환상을 설치합니다</description>
+	<default>false</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">gimp</packagereq>
+    	    <packagereq type="default">gimp-help</packagereq>
+    	    <packagereq type="default">gimp-libs</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>kPhoto</id>
+	<name>kPhoto</name>
+	<name xml:lang="ko_KP">사진관리프로그람</name>
+	<description>This package contains kPhoto</description>
+	<description xml:lang="ko_KP">사진관리프로그람을 설치합니다</description>
+	<default>true</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">kPhoto</packagereq>
+    	    <packagereq type="default">scrollkeeper</packagereq>
+    	    <packagereq type="default">intltool</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>K3B</id>
+	<name>CD/DVD Writer</name>
+	<name xml:lang="ko_KP">은반</name>
+	<description>This package contains K3B</description>
+	<description xml:lang="ko_KP">은반을 설치합니다</description>
+	<default>false</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">k3b</packagereq>
+    	    <packagereq type="default">k3b-i18n</packagereq>
+	</packagelist>
+    </group>
+
+    <group>
+	<id>kooka</id>
+	<name>Kooka</name>
+	<name xml:lang="ko_KP">화상입력기</name>
+	<description>This package contains kooka</description>
+	<description xml:lang="ko_KP">화상입력기를 설치합니다</description>
+	<default>false</default>
+	<uservisible>true</uservisible>
+	<packagelist>
+    	    <packagereq type="default">kooka</packagereq>
+	</packagelist>
+    </group>
+
+  <group>
+    <id>development-libs</id>
+    <name>Development Libraries</name>
+    <name xml:lang="ko_KP">쏘프트웨어개발서고</name>
+    <description>The packages in this group are core libraries needed to develop applications.</description>
+    <description xml:lang="ko_KP">이것은 응용프로그람을 개발하는데 필요한 핵심서고들입니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">avahi-devel</packagereq>
+      <packagereq type="default">alsa-lib-devel</packagereq>
+      <packagereq type="default">libobjc</packagereq>
+      <packagereq type="default">libidn-devel</packagereq>
+      <packagereq type="default">libgpg-error-devel</packagereq>
+      <packagereq type="default">libstdc++-devel</packagereq>
+      <packagereq type="default">audiofile-devel</packagereq>
+      <packagereq type="default">esound-devel</packagereq>
+      <packagereq type="default">glib2-devel</packagereq>
+      <packagereq type="default">glibc-headers</packagereq>
+      <packagereq type="default">libgcrypt-devel</packagereq>
+      <packagereq type="default">libXinerama-devel</packagereq>
+      <packagereq type="default">libXpm-devel</packagereq>
+      <packagereq type="default">avahi-glib-devel</packagereq>
+      <packagereq type="default">boost-devel</packagereq>
+      <packagereq type="default">bzip2-devel</packagereq>
+      <packagereq type="default">libart_lgpl-devel</packagereq>
+      <packagereq type="default">cyrus-sasl-devel</packagereq>
+      <packagereq type="default">db4-devel</packagereq>
+      <packagereq type="default">db4-cxx</packagereq>
+      <packagereq type="default">dbus-devel</packagereq>
+      <packagereq type="default">dbus-qt-devel</packagereq>
+      <packagereq type="default">devicemanager-devel</packagereq>
+      <packagereq type="default">fuse-devel</packagereq>
+      <packagereq type="default">gtk+-devel</packagereq>
+      <packagereq type="default">gtk2-devel</packagereq>
+      <packagereq type="default">gtkhtml2-devel</packagereq>
+      <packagereq type="default">gtk2-devel-docs</packagereq>
+      <packagereq type="default">pango-devel</packagereq>
+      <packagereq type="default">expat-devel</packagereq>
+      <packagereq type="default">gdbm-devel</packagereq>
+      <packagereq type="default">glibc-devel</packagereq>
+      <packagereq type="default">m4</packagereq>
+      <packagereq type="default">gmp-devel</packagereq>
+      <packagereq type="default">gpm-devel</packagereq>
+      <packagereq type="default">hesiod-devel</packagereq>
+      <packagereq type="default">krb5-devel</packagereq>
+      <packagereq type="default">krbafs-devel</packagereq>
+      <packagereq type="default">kudzu-devel</packagereq>
+      <packagereq type="default">libacl-devel</packagereq>
+      <packagereq type="default">libattr-devel</packagereq>
+      <packagereq type="default">libcap-devel</packagereq>
+      <packagereq type="default">libogg-devel</packagereq>
+      <packagereq type="default">libselinux-devel</packagereq>
+      <packagereq type="default">libtermcap-devel</packagereq>
+      <packagereq type="default">libusb-devel</packagereq>
+      <packagereq type="default">libuser-devel</packagereq>
+      <packagereq type="default">libvorbis-devel</packagereq>
+      <packagereq type="default">libxml2-devel</packagereq>
+      <packagereq type="default">lockdev-devel</packagereq>
+      <packagereq type="default">ncurses-devel</packagereq>
+      <packagereq type="default">newt-devel</packagereq>
+      <packagereq type="default">openldap-devel</packagereq>
+      <packagereq type="default">openssl-devel</packagereq>
+      <packagereq type="default">pam-devel</packagereq>
+      <packagereq type="default">pciutils-devel</packagereq>
+      <packagereq type="default">python-devel</packagereq>
+      <packagereq type="default">readline-devel</packagereq>
+      <packagereq type="default">rpm-devel</packagereq>
+      <packagereq type="default">slang-devel</packagereq>
+      <packagereq type="default">zlib-devel</packagereq>
+      <packagereq type="default">kernel-PAE-devel</packagereq>
+      <packagereq type="default">e2fsprogs-devel</packagereq>
+      <packagereq type="default">fontconfig-devel</packagereq>
+      <packagereq type="default">gamin-devel</packagereq>
+      <packagereq type="default">libgfortran</packagereq>
+      <packagereq type="default">libxslt-devel</packagereq>
+      <packagereq type="default">patch</packagereq>
+      <packagereq type="default">pcre-devel</packagereq>
+      <packagereq type="default">xorg-x11-proto-devel</packagereq>
+      <packagereq type="default">avahi-compat-libdns_sd-devel</packagereq>
+      <packagereq type="default">libmad-devel</packagereq>
+      <packagereq type="default">automake19</packagereq>
+      <packagereq type="default">libblkid-devel</packagereq>
+      <packagereq type="default">securityd-devel</packagereq>
+      <packagereq type="default">libpng10-devel</packagereq>
+      <packagereq type="default">docbook-utils</packagereq>
+      <packagereq type="default">docbook-dtds</packagereq>
+      <packagereq type="default">docbook-style-dsssl</packagereq>
+      <packagereq type="default">docbook-style-xsl</packagereq>
+      <packagereq type="default">SDL-devel</packagereq>
+      <packagereq type="default">Xaw3d-devel</packagereq>
+      <packagereq type="default">freetype-devel</packagereq>
+      <packagereq type="default">gd-devel</packagereq>
+      <packagereq type="default">icon-slicer</packagereq>
+      <packagereq type="default">libdrm-devel</packagereq>
+      <packagereq type="default">libjpeg-devel</packagereq>
+      <packagereq type="default">libmng-devel</packagereq>
+      <packagereq type="default">libpng-devel</packagereq>
+      <packagereq type="default">libtiff-devel</packagereq>
+      <packagereq type="default">netpbm-devel</packagereq>
+      <packagereq type="default">libX11-devel</packagereq>
+      <packagereq type="default">libXfixes-devel</packagereq>
+      <packagereq type="default">libICE-devel</packagereq>
+      <packagereq type="default">mesa-libGL-devel</packagereq>
+      <packagereq type="default">mesa-libGLU-devel</packagereq>
+      <packagereq type="default">libXdamage-devel</packagereq>
+      <packagereq type="default">libXaw-devel</packagereq>
+      <packagereq type="default">libXau-devel</packagereq>
+      <packagereq type="default">libXft-devel</packagereq>
+      <packagereq type="default">libXvMC-devel</packagereq>
+      <packagereq type="default">libXt-devel</packagereq>
+      <packagereq type="default">libSM-devel</packagereq>
+      <packagereq type="default">libXcomposite-devel</packagereq>
+      <packagereq type="default">libXcursor-devel</packagereq>
+      <packagereq type="default">libXdmcp-devel</packagereq>
+      <packagereq type="default">libXevie-devel</packagereq>
+      <packagereq type="default">libXext-devel</packagereq>
+      <packagereq type="default">libXtst-devel</packagereq>
+      <packagereq type="default">libXfont-devel</packagereq>
+      <packagereq type="default">libXmu-devel</packagereq>
+      <packagereq type="default">libXScrnSaver-devel</packagereq>
+      <packagereq type="default">libXrandr-devel</packagereq>
+      <packagereq type="default">libXrender-devel</packagereq>
+      <packagereq type="default">libXres-devel</packagereq>
+      <packagereq type="default">libXxf86dga-devel</packagereq>
+      <packagereq type="default">libXxf86misc-devel</packagereq>
+      <packagereq type="default">libXxf86vm-devel</packagereq>
+      <packagereq type="default">xorg-x11-server-devel</packagereq>
+      <packagereq type="default">xorg-x11-xtrans-devel</packagereq>
+      <packagereq type="default">xterm</packagereq>
+      <packagereq type="default">xrestop</packagereq>
+      <packagereq type="default">postgresql</packagereq>
+      <packagereq type="default">postgresql-devel</packagereq>
+      <packagereq type="default">unixODBC</packagereq>
+      <packagereq type="default">unixODBC-devel</packagereq>
+      <packagereq type="default">libqmedia-devel</packagereq>
+      <packagereq type="default">cmake</packagereq>
+      <packagereq type="default">arts-devel</packagereq>
+      <packagereq type="default">kernel-devel</packagereq>
+      <packagereq type="default">kernel-headers</packagereq>
+      <packagereq type="default">hal-devel</packagereq>
+      <packagereq type="default">libxkbfile-devel</packagereq>
+      <packagereq type="default">libcdio-devel</packagereq>
+      <packagereq type="default">libraw1394-devel</packagereq>
+      <packagereq type="default">dbus-glib-devel</packagereq>
+      <packagereq type="default">cups-devel</packagereq>
+      <packagereq type="default">GConf2-devel</packagereq>
+      <packagereq type="default">libaio-devel</packagereq>
+      <packagereq type="default">libxcb-devel</packagereq>
+      <packagereq type="default">cairo-devel</packagereq>
+      <packagereq type="default">giflib-devel</packagereq>
+      <packagereq type="default">tetex</packagereq>
+      <packagereq type="default">tetex-dvips</packagereq>
+      <packagereq type="default">tetex-fonts</packagereq>
+      <packagereq type="default">tetex-latex</packagereq>
+      <packagereq type="default">xorg-x11-drv-intel-devel</packagereq>
+      <packagereq type="default">libgnomecanvas-devel</packagereq>
+      <packagereq type="default">vte-devel</packagereq>
+      <packagereq type="default">libicu-devel</packagereq>
+      <packagereq type="default">tcl-devel</packagereq>
+      <packagereq type="default">ghostscript-devel</packagereq>
+      <packagereq type="default">check-devel</packagereq>
+      <packagereq type="default">hunspell-devel</packagereq>
+      <packagereq type="default">m17n-lib-devel</packagereq>
+      <packagereq type="default">anthy-devel</packagereq>
+      <packagereq type="default">apr-devel</packagereq>
+      <packagereq type="default">apr-util-devel</packagereq>
+      <packagereq type="default">aspell-devel</packagereq>
+      <packagereq type="default">at-spi-devel</packagereq>
+      <packagereq type="default">atk-devel</packagereq>
+      <packagereq type="default">audit-libs-devel</packagereq>
+      <packagereq type="default">binutils-devel</packagereq>
+      <packagereq type="default">ConsoleKit-devel</packagereq>
+      <packagereq type="default">cdparanoia-devel</packagereq>
+      <packagereq type="default">dbusSM-devel</packagereq>
+      <packagereq type="default">elfutils-libelf-devel</packagereq>
+      <packagereq type="default">faad2-devel</packagereq>
+      <packagereq type="default">gail-devel</packagereq>
+      <packagereq type="default">gettext-devel</packagereq>
+      <packagereq type="default">glib-devel</packagereq>
+      <packagereq type="default">gnome-keyring-devel</packagereq>
+      <packagereq type="default">gnome-vfs2-devel</packagereq>
+      <packagereq type="default">gnutls-devel</packagereq>
+      <packagereq type="default">gstreamer-devel</packagereq>
+      <packagereq type="default">gstreamer-plugins-base-devel</packagereq>
+      <packagereq type="default">ibus-devel</packagereq>
+      <packagereq type="default">ibus-qt-devel</packagereq>
+      <packagereq type="default">imlib-devel</packagereq>
+      <packagereq type="default">imsettings-devel</packagereq>
+      <packagereq type="default">iso-codes-devel</packagereq>
+      <packagereq type="default">jasper-devel</packagereq>
+      <packagereq type="default">keyutils-libs-devel</packagereq>
+      <packagereq type="default">lame-devel</packagereq>
+      <packagereq type="default">lcms-devel</packagereq>
+      <packagereq type="default">libbattery-devel</packagereq>
+      <packagereq type="default">libbonobo-devel</packagereq>
+      <packagereq type="default">libbonoboui-devel</packagereq>
+      <packagereq type="default">libcom_err-devel</packagereq>
+      <packagereq type="default">libcroco-devel</packagereq>
+      <packagereq type="default">libdmx-devel</packagereq>
+      <packagereq type="default">libevent-devel</packagereq>
+      <packagereq type="default">libexif-devel</packagereq>
+      <packagereq type="default">libfontenc-devel</packagereq>
+      <packagereq type="default">libglade2-devel</packagereq>
+      <packagereq type="default">libgnome-devel</packagereq>
+      <packagereq type="default">libgnomecups-devel</packagereq>
+      <packagereq type="default">libgnomeprint22-devel</packagereq>
+      <packagereq type="default">libgnomeprintui22-devel</packagereq>
+      <packagereq type="default">libgnomeui-devel</packagereq>
+      <packagereq type="default">libgsf-devel</packagereq>
+      <packagereq type="default">libgssglue-devel</packagereq>
+      <packagereq type="default">libIDL-devel</packagereq>
+      <packagereq type="default">libkcg-devel</packagereq>
+      <packagereq type="default">libpciaccess-devel</packagereq>
+      <packagereq type="default">librsvg2-devel</packagereq>
+      <packagereq type="default">libsemanage-devel</packagereq>
+      <packagereq type="default">libsepol-devel</packagereq>
+      <packagereq type="default">libthai-devel</packagereq>
+      <packagereq type="default">libutempter-devel</packagereq>
+      <packagereq type="default">libvncserver-devel</packagereq>
+      <packagereq type="default">libwnck-devel</packagereq>
+      <packagereq type="default">libXi-devel</packagereq>
+      <packagereq type="default">libXv-devel</packagereq>
+      <packagereq type="default">libxml-devel</packagereq>
+      <packagereq type="default">m17n-db-devel</packagereq>
+      <packagereq type="default">neon-devel</packagereq>
+      <packagereq type="default">nfs-utils-lib-devel</packagereq>
+      <packagereq type="default">nspr-devel</packagereq>
+      <packagereq type="default">nss_compat_ossl-devel</packagereq>
+      <packagereq type="default">nss-devel</packagereq>
+      <packagereq type="default">nss-pkcs11-devel</packagereq>
+      <packagereq type="default">ORBit2-devel</packagereq>
+      <packagereq type="default">PolicyKit-devel</packagereq>
+      <packagereq type="default">parted-devel</packagereq>
+      <packagereq type="default">pilot-link-devel</packagereq>
+      <packagereq type="default">pixman-devel</packagereq>
+      <packagereq type="default">poppler-devel</packagereq>
+      <packagereq type="default">poppler-glib-devel</packagereq>
+      <packagereq type="default">popt-devel</packagereq>
+      <packagereq type="default">sip-devel</packagereq>
+      <packagereq type="default">sqlite-devel</packagereq>
+      <packagereq type="default">startup-notification-devel</packagereq>
+      <packagereq type="default">subversion-devel</packagereq>
+      <packagereq type="default">tk-devel</packagereq>
+      <packagereq type="default">wireless-tools-devel</packagereq>
+      <packagereq type="default">xorg-x11-drv-evdev-devel</packagereq>
+      <packagereq type="default">libgudev1-devel</packagereq>
+      <packagereq type="default">libudev-devel</packagereq>
+      <packagereq type="default">xmlto</packagereq>
+      <packagereq type="default">gperf</packagereq>
+      <packagereq type="default">passivetex</packagereq>
+      <packagereq type="default">xmltex</packagereq>
+      <packagereq type="default">libcap-ng-devel</packagereq>
+      <packagereq type="default">usbutils</packagereq>
+      <packagereq type="default">sane-backends-libs-gphoto2</packagereq>
+      <packagereq type="default">sane-backends-devel</packagereq>
+      <packagereq type="default">gphoto2-devel</packagereq>
+      <packagereq type="default">libieee1284-devel</packagereq>
+      <packagereq type="default">libv4l-devel</packagereq>
+      <packagereq type="default">freetds</packagereq>
+      <packagereq type="default">freetds-devel</packagereq>
+      <packagereq type="default">icon-naming-utils</packagereq>
+      <packagereq type="default">perl-XML-Simple</packagereq>
+      <packagereq type="default">gob2</packagereq>
+      <packagereq type="default">libconfig-devel</packagereq>
+      <packagereq type="default">dialog</packagereq>
+      <packagereq type="default">perl-XML-Parser</packagereq>
+      <packagereq type="default">perl-URI</packagereq>
+      <packagereq type="default">libpng10</packagereq>
+      <packagereq type="default">at-spi</packagereq>
+      <packagereq type="default">libsepol-static</packagereq>
+      <packagereq type="default">gettext-libs</packagereq>
+      <packagereq type="default">boost-python</packagereq>
+      <packagereq type="default">subversion-ruby</packagereq>
+      <packagereq type="default">xorg-x11-util-macros</packagereq>
+      <packagereq type="default">check</packagereq>
+      <packagereq type="default">gpm</packagereq>
+      <packagereq type="default">vte</packagereq>
+      <packagereq type="default">boost-program-options</packagereq>
+      <packagereq type="default">boost-thread</packagereq>
+      <packagereq type="default">iso-codes</packagereq>
+      <packagereq type="default">xml-common</packagereq>
+      <packagereq type="default">boost</packagereq>
+      <packagereq type="default">libXevie</packagereq>
+      <packagereq type="default">libselinux-static</packagereq>
+      <packagereq type="default">boost-iostreams</packagereq>
+      <packagereq type="default">boost-graph</packagereq>
+      <packagereq type="default">boost-signals</packagereq>
+      <packagereq type="default">hesiod</packagereq>
+      <packagereq type="default">boost-static</packagereq>
+      <packagereq type="default">hunspell</packagereq>
+      <packagereq type="default">openjade</packagereq>
+      <packagereq type="default">gpm-libs</packagereq>
+      <packagereq type="default">boost-serialization</packagereq>
+      <packagereq type="default">popt-static</packagereq>
+      <packagereq type="default">boost-test</packagereq>
+      <packagereq type="default">perl-SGMLSpm</packagereq>
+      <packagereq type="default">boost-math</packagereq>
+      <packagereq type="default">opensp</packagereq>
+      <packagereq type="default">boost-regex</packagereq>
+      <packagereq type="default">boost-filesystem</packagereq>
+      <packagereq type="default">gtk-doc</packagereq>
+      <packagereq type="default">elfutils-libelf-devel-static</packagereq>
+      <packagereq type="default">postgresql-libs</packagereq>
+      <packagereq type="default">xmlrpc-c</packagereq>
+      <packagereq type="default">xmlrpc-c-client</packagereq>
+      <packagereq type="default">sip-macros</packagereq>
+      <packagereq type="default">boost-system</packagereq>
+      <packagereq type="default">krbafs</packagereq>
+      <packagereq type="default">boost-date-time</packagereq>
+      <packagereq type="default">boost-wave</packagereq>
+      <packagereq type="default">sgml-common</packagereq>
+      <packagereq type="default">mx</packagereq>
+      <packagereq type="default">Xaw3d</packagereq>
+      <packagereq type="default">libuuid-devel</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>development-tools</id>
+    <name>Development Tools</name>
+    <name xml:lang="ko_KP">쏘프트웨어개발도구</name>
+    <description>These tools include core development tools such as automake, gcc, perl, python, ruby, and debuggers.</description>
+    <description xml:lang="ko_KP">이것은 automake, gcc, perl, python, ruby, gdb와 같은 핵심개발도구들을 포함하고 있습니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">ElectricFence</packagereq>
+      <packagereq type="default">autoconf</packagereq>
+      <packagereq type="default">automake</packagereq>
+      <packagereq type="default">automake14</packagereq>
+      <packagereq type="default">automake15</packagereq>
+      <packagereq type="default">automake16</packagereq>
+      <packagereq type="default">automake17</packagereq>
+      <packagereq type="default">binutils</packagereq>
+      <packagereq type="default">bison</packagereq>
+      <packagereq type="default">byacc</packagereq>
+      <packagereq type="default">cscope</packagereq>
+      <packagereq type="default">ctags</packagereq>
+      <packagereq type="default">dejagnu</packagereq>
+      <packagereq type="default">diffstat</packagereq>
+      <packagereq type="default">doxygen</packagereq>
+      <packagereq type="default">elfutils</packagereq>
+      <packagereq type="default">expect</packagereq>
+      <packagereq type="default">flex</packagereq>
+      <packagereq type="default">libgnat</packagereq>
+      <packagereq type="default">libgnat-devel</packagereq>
+      <packagereq type="default">libcurl-devel</packagereq>
+      <packagereq type="default">glade2</packagereq>
+      <packagereq type="default" basearchonly="true">gcc</packagereq>
+      <packagereq type="default" basearchonly="true">gcc-c++</packagereq>
+      <packagereq type="default" basearchonly="true">gcc-gfortran</packagereq>
+      <packagereq type="default" basearchonly="true">gcc-gnat</packagereq>
+      <packagereq type="default" basearchonly="true">gcc-objc</packagereq>
+      <packagereq type="default" basearchonly="true">gdb</packagereq>
+      <packagereq type="default">gettext</packagereq>
+      <packagereq type="default">imake</packagereq>
+      <packagereq type="default">indent</packagereq>
+      <packagereq type="default">libtool</packagereq>
+      <packagereq type="default" basearchonly="true">ltrace</packagereq>
+      <packagereq type="default">make</packagereq>
+      <packagereq type="default">memtest86+</packagereq>
+      <packagereq type="default">nasm</packagereq>
+      <packagereq type="default" basearchonly="true">oprofile</packagereq>
+      <packagereq type="default">patchutils</packagereq>
+      <packagereq type="default">pkgconfig</packagereq>
+      <packagereq type="default" basearchonly="true">pstack</packagereq>
+      <packagereq type="default">python-ldap</packagereq>
+      <packagereq type="default">rcs</packagereq>
+      <packagereq type="default">redhat-rpm-config</packagereq>
+      <packagereq type="default">rpm-build</packagereq>
+      <packagereq type="default">strace</packagereq>
+      <packagereq type="default">subversion</packagereq>
+      <packagereq type="default">apr-util-ldap</packagereq>
+      <packagereq type="default">apr</packagereq>
+      <packagereq type="default">apr-util</packagereq>
+      <packagereq type="default">swig</packagereq>
+      <packagereq type="default">texinfo</packagereq>
+      <packagereq type="default">valgrind</packagereq>
+      <packagereq type="default">ruby</packagereq>
+      <packagereq type="default">ruby-devel</packagereq>
+      <packagereq type="default">ruby-mode</packagereq>
+      <packagereq type="default">eruby</packagereq>
+      <packagereq type="default">eruby-libs</packagereq>
+      <packagereq type="default">emacs-common</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-295</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-296</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-32</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-32-c++</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-32-g77</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-c++</packagereq>
+      <packagereq type="default" basearchonly="true">compat-gcc-c++-32</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libstdc++</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libstdc++-295</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libstdc++-296</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libstdc++-32</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libstdc++-devel</packagereq>
+      <packagereq type="default" basearchonly="true">compat-libf2c-32</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>develeditor</id>
+    <name>Develop Editors</name>
+    <name xml:lang="ko_KP">개발용편집프로그람</name>
+    <description>Basic support for the programming editor.</description>
+    <description xml:lang="ko_KP">프로그람작성, 본문작성을 할수 있는 여러가지 유용한 편집프로그람들을 지원합니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">vim-enhanced</packagereq>
+      <packagereq type="default">vim-common</packagereq>
+      <packagereq type="default">mc</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>kde-software-development</id>
+    <name>Qt3/KDE3 SDK</name>
+    <name xml:lang="ko_KP">Qt3/KDE3 SDK</name>
+    <description>Install these packages to develop QT and KDE graphical applications.</description>
+    <description xml:lang="ko_KP">QT와 KDE용 GUI프로그람을 개발할수 있도록 지원합니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">kdbg</packagereq>
+      <packagereq type="default">kdebase-devel</packagereq>
+      <packagereq type="default">kdelibs-devel</packagereq>
+      <packagereq type="default">kdelibs-apidocs</packagereq>
+      <packagereq type="default">kdenetwork-devel</packagereq>
+      <packagereq type="default">qt-designer</packagereq>
+      <packagereq type="default">qt-devel</packagereq>
+      <packagereq type="default">MySQL-devel</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>samtaesung</id>
+    <name>C/C++ Development Environment</name>
+    <name xml:lang="ko_KP">통합개발환경《삼태성》3.0</name>
+    <description>Install these packages to develop SamTaeSung Development Kit.</description>
+    <description xml:lang="ko_KP">삼태성쏘프트웨어 개발도구를 지원합니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">sts</packagereq>
+      <packagereq type="default">sts-fulltextsearch</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>qt4-development</id>
+    <name>Qt4 SDK</name>
+    <name xml:lang="ko_KP">Qt4 SDK</name>
+    <description>Install these packages to develop QT4 graphical applications.</description>
+    <description xml:lang="ko_KP">Qt4용 GUI프로그람을 개발할수 있도록 지원합니다.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">qt4-demos</packagereq>
+      <packagereq type="default">qt4-devel</packagereq>
+      <packagereq type="default">qt4-doc</packagereq>
+      <packagereq type="default">qt4-examples</packagereq>
+      <packagereq type="default">qt4-odbc</packagereq>
+    </packagelist>
+  </group>
+
+    <group>
+    	<id>sysbase</id>
+    	<name>System Base Software</name>
+    	<name xml:lang="ko_KP">체계기반 쏘프트웨어</name>
+    	<description>This is a collection of packages supporting the system base.</description>
+    	<description xml:lang="ko_KP">이것은 체계기반을 지원하는 패키지들의 모임입니다.</description>
+    	<default>true</default>
+    	<uservisible>true</uservisible>
+    	<packagelist>
+         <packagereq type="default">cups</packagereq>
+         <packagereq type="default">cups-libs</packagereq>
+         <packagereq type="default">ConsoleKit</packagereq>
+         <packagereq type="default">ConsoleKit-libs</packagereq>
+         <packagereq type="default">ConsoleKit-x11</packagereq>
+         <packagereq type="default">GConf2</packagereq>
+         <packagereq type="default">ImageMagick</packagereq>
+         <packagereq type="default">MAKEDEV</packagereq>
+         <packagereq type="default">ORBit2</packagereq>
+         <packagereq type="default">SDL</packagereq>
+         <packagereq type="default">upstart</packagereq>
+         <packagereq type="default">sysvinit-tools</packagereq>
+         <packagereq type="default">libnih</packagereq>
+         <packagereq type="default">acl</packagereq>
+         <packagereq type="default">fuseftpmount</packagereq>
+         <packagereq type="default">alsa-lib</packagereq>
+         <packagereq type="default">alsa-utils</packagereq>
+         <packagereq type="default">amtu</packagereq>
+         <packagereq type="default">anthy</packagereq>
+         <packagereq type="default">arts</packagereq>
+         <packagereq type="default">aspell</packagereq>
+         <packagereq type="default">aspell-en</packagereq>
+         <packagereq type="default">atk</packagereq>
+         <packagereq type="default">attr</packagereq>
+         <packagereq type="default">audiofile</packagereq>
+         <packagereq type="default">audit</packagereq>
+         <packagereq type="default">audit-libs</packagereq>
+         <packagereq type="default">audit-libs-python</packagereq>
+         <packagereq type="default">authconfig</packagereq>
+         <packagereq type="default">avahi</packagereq>
+         <packagereq type="default">avahi-compat-libdns_sd</packagereq>
+         <packagereq type="default">avahi-glib</packagereq>
+         <packagereq type="default">basesystem</packagereq>
+         <packagereq type="default">bash</packagereq>
+         <packagereq type="default">beecrypt</packagereq>
+         <packagereq type="default">bitstream-vera-fonts</packagereq>
+         <packagereq type="default">bjfilter-common</packagereq>
+         <packagereq type="default">bjfilter-pixmaip1000</packagereq>
+         <packagereq type="default">bjfilter-pixmaip1000-lprng</packagereq>
+         <packagereq type="default">bjfilter-pixmaip1500</packagereq>
+         <packagereq type="default">bjfilter-pixmaip1500-lprng</packagereq>
+         <packagereq type="default">bjfilter-pixusip3100</packagereq>
+         <packagereq type="default">bjfilter-pixusip3100-lprng</packagereq>
+         <packagereq type="default">bjfilter-pixusip4100</packagereq>
+         <packagereq type="default">bjfilter-pixusip4100-lprng</packagereq>
+         <packagereq type="default">bjfilter-pixusip8600</packagereq>
+         <packagereq type="default">bjfilter-pixusip8600-lprng</packagereq>
+         <packagereq type="default">bootsplash</packagereq>
+         <packagereq type="default">bzip2</packagereq>
+         <packagereq type="default">bzip2-libs</packagereq>
+         <packagereq type="default">cairo</packagereq>
+         <packagereq type="default">cdda2wav</packagereq>
+         <packagereq type="default">cdparanoia-libs</packagereq>
+         <packagereq type="default">cdrdao</packagereq>
+         <packagereq type="default">cdrecord</packagereq>
+         <packagereq type="default">chkconfig</packagereq>
+         <packagereq type="default">chkfontpath</packagereq>
+         <packagereq type="default">cnijfilter-common</packagereq>
+         <packagereq type="default">cnijfilter-ip1180ip2200</packagereq>
+         <packagereq type="default">cnijfilter-ip1180ip2200-lprng</packagereq>
+         <packagereq type="default">cnijfilter-ip4200</packagereq>
+         <packagereq type="default">cnijfilter-ip4200-lprng</packagereq>
+         <packagereq type="default">cnijfilter-ip6600d</packagereq>
+         <packagereq type="default">cnijfilter-ip6600d-lprng</packagereq>
+         <packagereq type="default">cnijfilter-ip7500</packagereq>
+         <packagereq type="default">cnijfilter-ip7500-lprng</packagereq>
+         <packagereq type="default">cnijfilter-mp500</packagereq>
+         <packagereq type="default">cnijfilter-mp500-lprng</packagereq>
+         <packagereq type="default">compat-libstdc++-296</packagereq>
+         <packagereq type="default">compat-libstdc++-33</packagereq>
+         <packagereq type="default">coreutils</packagereq>
+         <packagereq type="default">cpio</packagereq>
+         <packagereq type="default">cpp</packagereq>
+         <packagereq type="default">cracklib</packagereq>
+         <packagereq type="default">cracklib-dicts</packagereq>
+         <packagereq type="default">crontabs</packagereq>
+         <packagereq type="default">cryptsetup-luks</packagereq>
+         <packagereq type="default">curl</packagereq>
+         <packagereq type="default">libcurl</packagereq>
+         <packagereq type="default">cyrus-sasl</packagereq>
+         <packagereq type="default">cyrus-sasl-lib</packagereq>
+         <packagereq type="default">db4</packagereq>
+         <packagereq type="default">dbus</packagereq>
+         <packagereq type="default">dbus-glib</packagereq>
+         <packagereq type="default">dbus-libs</packagereq>
+         <packagereq type="default">dbus-qt</packagereq>
+         <packagereq type="default">dbus-x11</packagereq>
+         <packagereq type="default">dbus-python</packagereq>
+         <packagereq type="default">desktop-backgrounds-basic</packagereq>
+         <packagereq type="default">desktop-file-utils</packagereq>
+         <packagereq type="default">device-mapper</packagereq>
+         <packagereq type="default">device-mapper-libs</packagereq>
+         <packagereq type="default">devicemanager</packagereq>
+         <packagereq type="default">dhclient</packagereq>
+         <packagereq type="default">dhcpv6-client</packagereq>
+         <packagereq type="default">diffutils</packagereq>
+         <packagereq type="default">dmidecode</packagereq>
+         <packagereq type="default">dmraid</packagereq>
+         <packagereq type="default">dosfstools</packagereq>
+         <packagereq type="default">e2fsprogs</packagereq>
+         <packagereq type="default">e2fsprogs-libs</packagereq>
+         <packagereq type="default">libss</packagereq>
+         <packagereq type="default">ed</packagereq>
+         <packagereq type="default">eject</packagereq>
+         <packagereq type="default">elfutils</packagereq>
+         <packagereq type="default">elfutils-libelf</packagereq>
+         <packagereq type="default">elfutils-libs</packagereq>
+         <packagereq type="default">emovix</packagereq>
+         <packagereq type="default">enscript</packagereq>
+         <packagereq type="default">epsoneplijs</packagereq>
+         <packagereq type="default">epydoc</packagereq>
+         <packagereq type="default">esavermanager</packagereq>
+         <packagereq type="default">intcheck</packagereq>
+         <packagereq type="default">libbattery</packagereq>
+         <packagereq type="default">esound</packagereq>
+         <packagereq type="default">ethtool</packagereq>
+         <packagereq type="default">expat</packagereq>
+         <packagereq type="default">faac</packagereq>
+         <packagereq type="default">faad2</packagereq>
+         <packagereq type="default">ffmpeg</packagereq>
+         <packagereq type="default">file</packagereq>
+         <packagereq type="default">filesystem</packagereq>
+         <packagereq type="default">findutils</packagereq>
+         <packagereq type="default">finger</packagereq>
+         <packagereq type="default">flac</packagereq>
+         <packagereq type="default">fontconfig</packagereq>
+         <packagereq type="default">fonts-arabic</packagereq>
+         <packagereq type="default">fonts-chinese</packagereq>
+         <packagereq type="default">fonts-japanese</packagereq>
+         <packagereq type="default">fonts-korean</packagereq>
+         <packagereq type="default">fonts-lucida</packagereq>
+         <packagereq type="default">fonts-dejavu</packagereq>
+         <packagereq type="default">fonts-etc</packagereq>
+         <packagereq type="default">fonts-lohit</packagereq>
+         <packagereq type="default">foomatic</packagereq>
+         <packagereq type="default">foomatic-db</packagereq>
+         <packagereq type="default">foomatic-db-filesystem</packagereq>
+         <packagereq type="default">foomatic-db-ppds</packagereq>
+         <packagereq type="default">freeglut</packagereq>
+         <packagereq type="default">freetype</packagereq>
+         <packagereq type="default">fuse</packagereq>
+         <packagereq type="default">fuse-libs</packagereq>
+         <packagereq type="default">isight-firmware-tools</packagereq>
+         <packagereq type="default">gail</packagereq>
+         <packagereq type="default">gamin</packagereq>
+         <packagereq type="default">gawk</packagereq>
+         <packagereq type="default">gd</packagereq>
+         <packagereq type="default">gdb</packagereq>
+         <packagereq type="default">gdbm</packagereq>
+         <packagereq type="default">gdk-pixbuf</packagereq>
+         <packagereq type="default">gettext</packagereq>
+         <packagereq type="default">ghostscript</packagereq>
+         <packagereq type="default">ghostscript-fonts</packagereq>
+         <packagereq type="default">giflib</packagereq>
+         <packagereq type="default">glib</packagereq>
+         <packagereq type="default">glib2</packagereq>
+         <packagereq type="default">glibc</packagereq>
+         <packagereq type="default">glibc-common</packagereq>
+         <packagereq type="default">gmp</packagereq>
+         <packagereq type="default">gnome-icon-theme</packagereq>
+         <packagereq type="default">gnome-keyring</packagereq>
+         <packagereq type="default">gnome-mime-data</packagereq>
+         <packagereq type="default">gnome-mount</packagereq>
+         <packagereq type="default">gnome-python2</packagereq>
+         <packagereq type="default">gnome-python2-bonobo</packagereq>
+         <packagereq type="default">gnome-python2-canvas</packagereq>
+         <packagereq type="default">gnome-python2-gnomevfs</packagereq>
+         <packagereq type="default">gnome-vfs2</packagereq>
+         <packagereq type="default">gnupg</packagereq>
+         <packagereq type="default">gnutls</packagereq>
+         <packagereq type="default">gphoto2</packagereq>
+         <packagereq type="default">grab</packagereq>
+         <packagereq type="default">grep</packagereq>
+         <packagereq type="default">groff</packagereq>
+         <packagereq type="default">grub</packagereq>
+         <packagereq type="default">grubby</packagereq>
+         <packagereq type="default">orc</packagereq>
+         <packagereq type="default">gstreamer</packagereq>
+         <packagereq type="default">gstreamer-plugins-base</packagereq>
+         <packagereq type="default">gstreamer-plugins-good</packagereq>
+         <packagereq type="default">gstreamer-tools</packagereq>
+         <packagereq type="default">gtk+</packagereq>
+         <packagereq type="default">gtk-artwork</packagereq>
+         <packagereq type="default">gtk2</packagereq>
+         <packagereq type="default">gtkhtml2</packagereq>
+         <packagereq type="default">gtkhtml3</packagereq>
+         <packagereq type="default">gutenprint</packagereq>
+         <packagereq type="default">gzip</packagereq>
+         <packagereq type="default">graphviz</packagereq>
+         <packagereq type="default">hal</packagereq>
+         <packagereq type="default">hal-filesystem</packagereq>
+         <packagereq type="default">hal-info</packagereq>
+         <packagereq type="default">hal-libs</packagereq>
+         <packagereq type="default">hal-storage-addon</packagereq>
+         <packagereq type="default">hdparm</packagereq>
+         <packagereq type="default">hfsplus-tools</packagereq>
+         <packagereq type="default">hfsutils</packagereq>
+         <packagereq type="default">hfsutils-x11</packagereq>
+         <packagereq type="default">hicolor-icon-theme</packagereq>
+         <packagereq type="default">hpijs</packagereq>
+         <packagereq type="default">hplip</packagereq>
+         <packagereq type="default">hplip-libs</packagereq>
+         <packagereq type="default">hplip-common</packagereq>
+         <packagereq type="default">hplj10xx-foo2zjs</packagereq>
+         <packagereq type="default">htdig</packagereq>
+         <packagereq type="default">htmlview</packagereq>
+         <packagereq type="default">hwdata</packagereq>
+         <packagereq type="default">imlib</packagereq>
+         <packagereq type="default">info</packagereq>
+         <packagereq type="default">initscripts</packagereq>
+         <packagereq type="default">insserv</packagereq>
+         <packagereq type="default">iproute</packagereq>
+         <packagereq type="default">iptables</packagereq>
+         <packagereq type="default">iputils</packagereq>
+         <packagereq type="default">isdn4k-utils</packagereq>
+         <packagereq type="default">isdn4k-utils-vboxgetty</packagereq>
+         <packagereq type="default">java-1.6.0-openjdk</packagereq>
+         <packagereq type="default">jwhois</packagereq>
+         <packagereq type="default">kasumi</packagereq>
+         <packagereq type="default">kbd</packagereq>
+         <packagereq type="default">kde-i18n-Korean</packagereq>
+         <packagereq type="default">kdeartwork</packagereq>
+         <packagereq type="default">kdeartwork-icons</packagereq>
+         <packagereq type="default">kdescreensaver</packagereq>
+         <packagereq type="default">kdebase</packagereq>
+         <packagereq type="default">kdelibs</packagereq>
+         <packagereq type="default">kdemultimedia</packagereq>
+         <packagereq type="default">libvncserver</packagereq>
+         <packagereq type="default">kdenetwork</packagereq>
+         <packagereq type="default">kderc</packagereq>
+         <packagereq type="default">kdeutils</packagereq>
+         <packagereq type="default">keystoredbms</packagereq>
+         <packagereq type="default">keyutils-libs</packagereq>
+         <packagereq type="default">kghostview</packagereq>
+         <packagereq type="default">khelpviewer</packagereq>
+         <packagereq type="default">krb5-libs</packagereq>
+         <packagereq type="default">kudzu</packagereq>
+         <packagereq type="default">lame</packagereq>
+         <packagereq type="default">libdv</packagereq>
+         <packagereq type="default">speex</packagereq>
+         <packagereq type="default">lcms</packagereq>
+         <packagereq type="default">lcms-libs</packagereq>
+         <packagereq type="default">less</packagereq>
+         <packagereq type="default">libICE</packagereq>
+         <packagereq type="default">libIDL</packagereq>
+         <packagereq type="default">libSM</packagereq>
+         <packagereq type="default">libX11</packagereq>
+         <packagereq type="default">libX11-common</packagereq>
+         <packagereq type="default">libXScrnSaver</packagereq>
+         <packagereq type="default">libXau</packagereq>
+         <packagereq type="default">libXaw</packagereq>
+         <packagereq type="default">libXcomposite</packagereq>
+         <packagereq type="default">libXcursor</packagereq>
+         <packagereq type="default">libXdamage</packagereq>
+         <packagereq type="default">libXdmcp</packagereq>
+         <packagereq type="default">libXext</packagereq>
+         <packagereq type="default">libXfixes</packagereq>
+         <packagereq type="default">libXfont</packagereq>
+         <packagereq type="default">libXft</packagereq>
+         <packagereq type="default">libXi</packagereq>
+         <packagereq type="default">libXinerama</packagereq>
+         <packagereq type="default">libXmu</packagereq>
+         <packagereq type="default">libXpm</packagereq>
+         <packagereq type="default">libXrandr</packagereq>
+         <packagereq type="default">libXrender</packagereq>
+         <packagereq type="default">libXres</packagereq>
+         <packagereq type="default">libXt</packagereq>
+         <packagereq type="default">libXtst</packagereq>
+         <packagereq type="default">libXv</packagereq>
+         <packagereq type="default">libXvMC</packagereq>
+         <packagereq type="default">libXxf86misc</packagereq>
+         <packagereq type="default">libXxf86vm</packagereq>
+         <packagereq type="default">libXxf86dga</packagereq>
+         <packagereq type="default">libaccount</packagereq>
+         <packagereq type="default">libacl</packagereq>
+         <packagereq type="default">libart_lgpl</packagereq>
+         <packagereq type="default">libattr</packagereq>
+         <packagereq type="default">libavc1394</packagereq>
+         <packagereq type="default">libbonobo</packagereq>
+         <packagereq type="default">libblkid</packagereq>
+         <packagereq type="default">libbonoboui</packagereq>
+         <packagereq type="default">libcap</packagereq>
+         <packagereq type="default">libcap-ng</packagereq>
+         <packagereq type="default">libcdio</packagereq>
+         <packagereq type="default">libcom_err</packagereq>
+         <packagereq type="default">libcroco</packagereq>
+         <packagereq type="default">libdaemon</packagereq>
+         <packagereq type="default">libdmx</packagereq>
+         <packagereq type="default">libdrm</packagereq>
+         <packagereq type="default">libdvdcss</packagereq>
+         <packagereq type="default">libdvdread</packagereq>
+         <packagereq type="default">libevent</packagereq>
+         <packagereq type="default">libexif</packagereq>
+         <packagereq type="default">libfontenc</packagereq>
+         <packagereq type="default">libfreebob</packagereq>
+         <packagereq type="default">libffi</packagereq>
+         <packagereq type="default">libgcrypt</packagereq>
+         <packagereq type="default">libgcc</packagereq>
+         <packagereq type="default">libglade2</packagereq>
+         <packagereq type="default">libgnome</packagereq>
+         <packagereq type="default">libgnomecanvas</packagereq>
+         <packagereq type="default">libgnomecups</packagereq>
+         <packagereq type="default">libgnomeprint22</packagereq>
+         <packagereq type="default">libgnomeprintui22</packagereq>
+         <packagereq type="default">libgnomeui</packagereq>
+         <packagereq type="default">libgpg-error</packagereq>
+         <packagereq type="default">libgsf</packagereq>
+         <packagereq type="default">libgssglue</packagereq>
+         <packagereq type="default">libidn</packagereq>
+         <packagereq type="default">libiec61883</packagereq>
+         <packagereq type="default">libieee1284</packagereq>
+         <packagereq type="default">libjpeg</packagereq>
+         <packagereq type="default">libkcg</packagereq>
+         <packagereq type="default">libkipi</packagereq>
+         <packagereq type="default">libmad</packagereq>
+         <packagereq type="default">libmcpp</packagereq>
+         <packagereq type="default">libmng</packagereq>
+         <packagereq type="default">libmpcdec</packagereq>
+         <packagereq type="default">libmpeg2</packagereq>
+         <packagereq type="default">libmusicbrainz</packagereq>
+         <packagereq type="default">libnl</packagereq>
+         <packagereq type="default">libogg</packagereq>
+         <packagereq type="default">liboil</packagereq>
+         <packagereq type="default">libpcap</packagereq>
+         <packagereq type="default">libpciaccess</packagereq>
+         <packagereq type="default">libpng</packagereq>
+         <packagereq type="default">libqmedia</packagereq>
+         <packagereq type="default">libraw1394</packagereq>
+         <packagereq type="default">libresmgr</packagereq>
+         <packagereq type="default">librsvg2</packagereq>
+         <packagereq type="default">libsamplerate</packagereq>
+         <packagereq type="default">libsane-hpaio</packagereq>
+         <packagereq type="default">libselinux</packagereq>
+         <packagereq type="default">libselinux-python</packagereq>
+         <packagereq type="default">libselinux-utils</packagereq>
+         <packagereq type="default">libsemanage</packagereq>
+         <packagereq type="default">libsemanage-python</packagereq>
+         <packagereq type="default">libsepol</packagereq>
+         <packagereq type="default">libsetrans</packagereq>
+         <packagereq type="default">libsmbios-bin</packagereq>
+         <packagereq type="default">libsmbios-libs</packagereq>
+         <packagereq type="default">libsndfile</packagereq>
+         <packagereq type="default">libstdc++</packagereq>
+         <packagereq type="default">libtasn1</packagereq>
+         <packagereq type="default">libtermcap</packagereq>
+         <packagereq type="default">libtheora</packagereq>
+         <packagereq type="default">libtiff</packagereq>
+         <packagereq type="default">libtirpc</packagereq>
+         <packagereq type="default">libtool-ltdl</packagereq>
+         <packagereq type="default">libudev</packagereq>
+         <packagereq type="default">libgudev1</packagereq>
+         <packagereq type="default">libuser</packagereq>
+         <packagereq type="default">libusb</packagereq>
+         <packagereq type="default">libusb1</packagereq>
+         <packagereq type="default">libuuid</packagereq>
+         <packagereq type="default">libvisual</packagereq>
+         <packagereq type="default">libv4l</packagereq>
+         <packagereq type="default">libvorbis</packagereq>
+         <packagereq type="default">libwmf</packagereq>
+         <packagereq type="default">libwnck</packagereq>
+         <packagereq type="default">libwvstreams</packagereq>
+         <packagereq type="default">libxcb</packagereq>
+         <packagereq type="default">libxkbfile</packagereq>
+         <packagereq type="default">libxml</packagereq>
+         <packagereq type="default">libxml2</packagereq>
+         <packagereq type="default">libxml2-python</packagereq>
+         <packagereq type="default">libxslt</packagereq>
+         <packagereq type="default">linux-atm</packagereq>
+         <packagereq type="default">linux-atm-libs</packagereq>
+         <packagereq type="default">linux-firmware</packagereq>
+         <packagereq type="default">lm_sensors</packagereq>
+         <packagereq type="default">lockdev</packagereq>
+         <packagereq type="default">logrotate</packagereq>
+         <packagereq type="default">lvm2</packagereq>
+         <packagereq type="default">lynx</packagereq>
+         <packagereq type="default">m4</packagereq>
+         <packagereq type="default">mac-gtk</packagereq>
+         <packagereq type="default">mac-qt-kde</packagereq>
+         <packagereq type="default">make</packagereq>
+         <packagereq type="default">man</packagereq>
+         <packagereq type="default">man-pages</packagereq>
+         <packagereq type="default">mcpp</packagereq>
+         <packagereq type="default">mediacdmount</packagereq>
+         <packagereq type="default">mesa-dri-drivers</packagereq>
+         <packagereq type="default">mesa-dri-filesystem</packagereq>
+         <packagereq type="default">mesa-dri-llvmcore</packagereq>
+         <packagereq type="default">llvm-libs</packagereq>
+         <packagereq type="default">mesa-libGL</packagereq>
+         <packagereq type="default">mesa-libGLU</packagereq>
+         <packagereq type="default">mesa-libEGL</packagereq>
+         <packagereq type="default">metacity</packagereq>
+         <packagereq type="default">mingetty</packagereq>
+         <packagereq type="default">mkisofs</packagereq>
+         <packagereq type="default">mktemp</packagereq>
+         <packagereq type="default">module-init-tools</packagereq>
+         <packagereq type="default">mpfr</packagereq>
+         <packagereq type="default">mysql-connector-odbc</packagereq>
+         <packagereq type="default">MySQL-client</packagereq>
+         <packagereq type="default">MySQL-shared</packagereq>
+         <packagereq type="default">ncurses</packagereq>
+         <packagereq type="default">neon</packagereq>
+         <packagereq type="default">net-snmp</packagereq>
+         <packagereq type="default">net-snmp-libs</packagereq>
+         <packagereq type="default">net-tools</packagereq>
+         <packagereq type="default">newt</packagereq>
+         <packagereq type="default">nfs-utils</packagereq>
+         <packagereq type="default">nfs-utils-lib</packagereq>
+         <packagereq type="default">normalize</packagereq>
+         <packagereq type="default">nspr</packagereq>
+         <packagereq type="default">nss</packagereq>
+         <packagereq type="default">nss-softokn-freebl</packagereq>
+         <packagereq type="default">nss-tools</packagereq>
+         <packagereq type="default">ntfs-3g</packagereq>
+         <packagereq type="default">ntfsprogs</packagereq>
+         <packagereq type="default">openldap</packagereq>
+         <packagereq type="default">libconfig</packagereq>
+         <packagereq type="default">openssh</packagereq>
+         <packagereq type="default">openssh-clients</packagereq>
+         <packagereq type="default">openssh-server</packagereq>
+         <packagereq type="default">openssl</packagereq>
+         <packagereq type="default">openssl-perl</packagereq>
+         <packagereq type="default">pam</packagereq>
+         <packagereq type="default">pango</packagereq>
+         <packagereq type="default">parted</packagereq>
+         <packagereq type="default">passwd</packagereq>
+         <packagereq type="default">pciutils</packagereq>
+         <packagereq type="default">pciutils-libs</packagereq>
+         <packagereq type="default">pulseaudio-libs</packagereq>
+         <packagereq type="default">pcre</packagereq>
+         <packagereq type="default">pdf2pixmap</packagereq>
+         <packagereq type="default">pdf2pixmap-qt4</packagereq>
+         <packagereq type="default">perl-DBI</packagereq>
+         <packagereq type="default">perl</packagereq>
+         <packagereq type="default">perl-libs</packagereq>
+         <packagereq type="default">perl-Module-Pluggable</packagereq>
+         <packagereq type="default">perl-Pod-Simple</packagereq>
+         <packagereq type="default">perl-Pod-Escapes</packagereq>
+         <packagereq type="default">perl-version</packagereq>
+         <packagereq type="default">pilot-link</packagereq>
+         <packagereq type="default">pixman</packagereq>
+         <packagereq type="default">pnm2ppa</packagereq>
+         <packagereq type="default">popt</packagereq>
+         <packagereq type="default">portmap</packagereq>
+         <packagereq type="default">ppp</packagereq>
+         <packagereq type="default">procps</packagereq>
+         <packagereq type="default">psmisc</packagereq>
+         <packagereq type="default">psutils</packagereq>
+         <packagereq type="default">pycairo</packagereq>
+         <packagereq type="default">pygtk2</packagereq>
+         <packagereq type="default">pygtk2-libglade</packagereq>
+         <packagereq type="default">pyorbit</packagereq>
+         <packagereq type="default">python</packagereq>
+         <packagereq type="default">python-libs</packagereq>
+         <packagereq type="default">python-elementtree</packagereq>
+         <packagereq type="default">python-iniparse</packagereq>
+         <packagereq type="default">python-numeric</packagereq>
+         <packagereq type="default">python-sqlite</packagereq>
+         <packagereq type="default">python-urlgrabber</packagereq>
+         <packagereq type="default">python-imaging</packagereq>
+         <packagereq type="default">pyxf86config</packagereq>
+         <packagereq type="default">qt</packagereq>
+         <packagereq type="default">qt-MySQL</packagereq>
+         <packagereq type="default">quicklook</packagereq>
+         <packagereq type="default">radeontool</packagereq>
+         <packagereq type="default">rar</packagereq>
+         <packagereq type="default">readline</packagereq>
+         <packagereq type="default">redstar-lsb</packagereq>
+         <packagereq type="default">redstar-release</packagereq>
+         <packagereq type="default">redstar-utils</packagereq>
+         <packagereq type="default">resmgr</packagereq>
+         <packagereq type="default">rhpl</packagereq>
+         <packagereq type="default">rp-pppoe</packagereq>
+         <packagereq type="default">rpcbind</packagereq>
+         <packagereq type="default">rhpxl</packagereq>
+         <packagereq type="default">rpm</packagereq>
+         <packagereq type="default">rpm-libs</packagereq>
+         <packagereq type="default">rpm-python</packagereq>
+         <packagereq type="default">rsdock</packagereq>
+         <packagereq type="default">ruby</packagereq>
+         <packagereq type="default">ruby-libs</packagereq>
+         <packagereq type="default">samba</packagereq>
+         <packagereq type="default">samba-client</packagereq>
+         <packagereq type="default">samba-common</packagereq>
+         <packagereq type="default">sane-backends</packagereq>
+         <packagereq type="default">sane-backends-libs</packagereq>
+         <packagereq type="default">securityd</packagereq>
+         <packagereq type="default">sed</packagereq>
+         <packagereq type="default">checkpolicy</packagereq>
+         <packagereq type="default">policycoreutils</packagereq>
+         <packagereq type="default">selinux-policy</packagereq>
+         <packagereq type="default">selinux-policy-targeted</packagereq>
+         <packagereq type="default">policycoreutils-python</packagereq>
+         <packagereq type="default">setup</packagereq>
+         <packagereq type="default">shadow-utils</packagereq>
+         <packagereq type="default">sip</packagereq>
+         <packagereq type="default">slang</packagereq>
+         <packagereq type="default">shared-mime-info</packagereq>
+         <packagereq type="default">sox</packagereq>
+         <packagereq type="default">specspo</packagereq>
+         <packagereq type="default">sqlite</packagereq>
+         <packagereq type="default">startup-notification</packagereq>
+         <packagereq type="default">simpletext</packagereq>
+         <packagereq type="default">quicktime</packagereq>
+    	 <packagereq type="default">activitymonitor</packagereq>
+    	 <packagereq type="default">preview</packagereq>
+    	 <packagereq type="default">calculator</packagereq>
+         <packagereq type="default">startupdisk</packagereq>
+         <packagereq type="default">libefiboot</packagereq>
+         <packagereq type="default">efibootmgr</packagereq>
+         <packagereq type="default">sudo</packagereq>
+         <packagereq type="default">suspend-utils</packagereq>
+         <packagereq type="default">sysklogd</packagereq>
+         <packagereq type="default">klanis</packagereq>
+         <packagereq type="default">system-config-display</packagereq>
+         <packagereq type="default">system-config-printer-libs</packagereq>
+         <packagereq type="default">system-config-rootpassword</packagereq>
+         <packagereq type="default">tar</packagereq>
+         <packagereq type="default">libedit</packagereq>
+         <packagereq type="default">tcl</packagereq>
+         <packagereq type="default">tcp_wrappers</packagereq>
+         <packagereq type="default">tcp_wrappers-libs</packagereq>
+         <packagereq type="default">termcap</packagereq>
+         <packagereq type="default">timidity++</packagereq>
+         <packagereq type="default">tk</packagereq>
+         <packagereq type="default">tmpwatch</packagereq>
+         <packagereq type="default">traceroute</packagereq>
+         <packagereq type="default">transcode</packagereq>
+         <packagereq type="default">ttmkfdir</packagereq>
+         <packagereq type="default">tzdata</packagereq>
+         <packagereq type="default">udev</packagereq>
+         <packagereq type="default">unixODBC</packagereq>
+         <packagereq type="default">unzip</packagereq>
+         <packagereq type="default">urw-fonts</packagereq>
+         <packagereq type="default">usermode</packagereq>
+         <packagereq type="default">usermode-gtk</packagereq>
+         <packagereq type="default">ustr</packagereq>
+         <packagereq type="default">libutempter</packagereq>
+         <packagereq type="default">libshout</packagereq>
+         <packagereq type="default">taglib</packagereq>
+         <packagereq type="default">util-linux-ng</packagereq>
+         <packagereq type="default">libmount</packagereq>
+         <packagereq type="default">vbetool</packagereq>
+         <packagereq type="default">vcdimager</packagereq>
+         <packagereq type="default">vim-minimal</packagereq>
+         <packagereq type="default">vsftpd</packagereq>
+         <packagereq type="default">which</packagereq>
+         <packagereq type="default">wavpack</packagereq>
+         <packagereq type="default">wvdial</packagereq>
+         <packagereq type="default">xcb-util</packagereq>
+         <packagereq type="default">xdg-utils</packagereq>
+         <packagereq type="default">xkeyboard-config</packagereq>
+         <packagereq type="default">xorg-x11-apps</packagereq>
+         <packagereq type="default">xorg-x11-drivers</packagereq>
+         <packagereq type="default">xorg-x11-drv-acecad</packagereq>
+         <packagereq type="default">xorg-x11-drv-aiptek</packagereq>
+         <packagereq type="default">xorg-x11-drv-apm</packagereq>
+         <packagereq type="default">xorg-x11-drv-ast</packagereq>
+         <packagereq type="default">xorg-x11-drv-ati</packagereq>
+         <packagereq type="default">xorg-x11-drv-cirrus</packagereq>
+         <packagereq type="default">xorg-x11-drv-dummy</packagereq>
+         <packagereq type="default">xorg-x11-drv-elographics</packagereq>
+         <packagereq type="default">xorg-x11-drv-evdev</packagereq>
+         <packagereq type="default">xorg-x11-drv-fbdev</packagereq>
+         <packagereq type="default">xorg-x11-drv-fpit</packagereq>
+         <packagereq type="default">xorg-x11-drv-geode</packagereq>
+         <packagereq type="default">xorg-x11-drv-glint</packagereq>
+         <packagereq type="default">xorg-x11-drv-hyperpen</packagereq>
+         <packagereq type="default">xorg-x11-drv-i128</packagereq>
+         <packagereq type="default">xorg-x11-drv-i740</packagereq>
+         <packagereq type="default">xorg-x11-drv-intel</packagereq>
+         <packagereq type="default">xorg-x11-drv-keyboard</packagereq>
+         <packagereq type="default">xorg-x11-drv-mach64</packagereq>
+         <packagereq type="default">xorg-x11-drv-mga</packagereq>
+         <packagereq type="default">xorg-x11-drv-mouse</packagereq>
+         <packagereq type="default">xorg-x11-drv-mutouch</packagereq>
+         <packagereq type="default">xorg-x11-drv-neomagic</packagereq>
+         <packagereq type="default">xorg-x11-drv-nv</packagereq>
+         <packagereq type="default">xorg-x11-drv-penmount</packagereq>
+         <packagereq type="default">xorg-x11-drv-r128</packagereq>
+         <packagereq type="default">xorg-x11-drv-rendition</packagereq>
+         <packagereq type="default">xorg-x11-drv-s3virge</packagereq>
+         <packagereq type="default">xorg-x11-drv-savage</packagereq>
+         <packagereq type="default">xorg-x11-drv-siliconmotion</packagereq>
+         <packagereq type="default">xorg-x11-drv-sis</packagereq>
+         <packagereq type="default">xorg-x11-drv-sisusb</packagereq>
+         <packagereq type="default">xorg-x11-drv-synaptics</packagereq>
+         <packagereq type="default">xorg-x11-drv-tdfx</packagereq>
+         <packagereq type="default">xorg-x11-drv-trident</packagereq>
+         <packagereq type="default">xorg-x11-drv-v4l</packagereq>
+         <packagereq type="default">xorg-x11-drv-vesa</packagereq>
+         <packagereq type="default">xorg-x11-drv-vmmouse</packagereq>
+         <packagereq type="default">xorg-x11-drv-vmware</packagereq>
+         <packagereq type="default">xorg-x11-drv-void</packagereq>
+         <packagereq type="default">xorg-x11-drv-voodoo</packagereq>
+         <packagereq type="default">xorg-x11-drv-wacom</packagereq>
+         <packagereq type="default">xorg-x11-drv-openchrome</packagereq>
+         <packagereq type="default">xorg-x11-drv-nouveau</packagereq>
+         <packagereq type="default">xorg-x11-font-utils</packagereq>
+         <packagereq type="default">xorg-x11-fonts-100dpi</packagereq>
+         <packagereq type="default">xorg-x11-fonts-ISO8859-1-100dpi</packagereq>
+         <packagereq type="default">xorg-x11-fonts-ISO8859-1-75dpi</packagereq>
+         <packagereq type="default">xorg-x11-fonts-ISO8859-9-100dpi</packagereq>
+         <packagereq type="default">xorg-x11-fonts-ISO8859-9-75dpi</packagereq>
+         <packagereq type="default">xorg-x11-fonts-cyrillic</packagereq>
+         <packagereq type="default">xorg-x11-fonts-misc</packagereq>
+         <packagereq type="default">xorg-x11-resutils</packagereq>
+         <packagereq type="default">xorg-x11-server-Xorg</packagereq>
+         <packagereq type="default">xorg-x11-server-common</packagereq>
+         <packagereq type="default">xorg-x11-server-utils</packagereq>
+         <packagereq type="default">xorg-x11-xauth</packagereq>
+         <packagereq type="default">xorg-x11-xdm</packagereq>
+         <packagereq type="default">xorg-x11-xinit</packagereq>
+         <packagereq type="default">xorg-x11-xkb-utils</packagereq>
+         <packagereq type="default">xscreensaver-base</packagereq>
+         <packagereq type="default">xscreensaver-extras</packagereq>
+         <packagereq type="default">xscreensaver-gl-base</packagereq>
+         <packagereq type="default">xscreensaver-gl-extras</packagereq>
+         <packagereq type="default">xsri</packagereq>
+         <packagereq type="default">yum</packagereq>
+         <packagereq type="default">yum-metadata-parser</packagereq>
+         <packagereq type="default">zip</packagereq>
+         <packagereq type="default">zlib</packagereq>
+         <packagereq type="default">pkgconfig</packagereq>
+         <packagereq type="default">libsysfs</packagereq>
+         <packagereq type="default">poppler</packagereq>
+         <packagereq type="default">poppler-glib</packagereq>
+         <packagereq type="default">poppler-utils</packagereq>
+         <packagereq type="default">paps</packagereq>
+         <packagereq type="default">paps-libs</packagereq>
+         <packagereq type="default">portreserve</packagereq>
+         <packagereq type="default">netpbm</packagereq>
+         <packagereq type="default">netpbm-progs</packagereq>
+         <packagereq type="default">libsoup</packagereq>
+         <packagereq type="default">libgomp</packagereq>
+         <packagereq type="default">swmng</packagereq>
+         <packagereq type="default">libthai</packagereq>
+         <packagereq type="default">pygobject2</packagereq>
+         <packagereq type="default">lzma</packagereq>
+         <packagereq type="default">lzma-libs</packagereq>
+         <packagereq type="default">xz-libs</packagereq>
+         <packagereq type="default">xz</packagereq>
+         <packagereq type="default">jasper</packagereq>
+         <packagereq type="default">jasper-libs</packagereq>
+         <packagereq type="default">libx86</packagereq>
+         <packagereq type="default">newt-python</packagereq>
+         <packagereq type="default">diskutility</packagereq>
+         <packagereq type="default">fuse-smb</packagereq>
+         <packagereq type="default">libnotify</packagereq>
+         <packagereq type="default">notification-daemon</packagereq>
+         <packagereq type="default">pyxdg</packagereq>
+         <packagereq type="default">notify-python</packagereq>
+         <packagereq type="default">libicu</packagereq>
+         <packagereq type="default">xml-commmon</packagereq>
+         <packagereq type="default">libgxim</packagereq>
+         <packagereq type="default">libsexy</packagereq>
+         <packagereq type="default">hunspell-en</packagereq>
+         <packagereq type="default">libmalaga</packagereq>
+         <packagereq type="default">malaga-suomi-voikko</packagereq>
+         <packagereq type="default">libvoikko</packagereq>
+         <packagereq type="default">enchant</packagereq>
+         <packagereq type="default">notification-daemon</packagereq>
+         <packagereq type="default">dbusSM</packagereq>
+         <packagereq type="default">dvd+rw-tools</packagereq>
+         <packagereq type="default">imsettings</packagereq>
+         <packagereq type="default">ibus</packagereq>
+         <packagereq type="default">ibus-gtk</packagereq>
+         <packagereq type="default">ibus-libs</packagereq>
+         <packagereq type="default">ibus-input-pad</packagereq>
+         <packagereq type="default">ibus-character-viewer</packagereq>
+         <packagereq type="default">ibus-anthy</packagereq>
+         <packagereq type="default">ibus-chewing</packagereq>
+         <packagereq type="default">libchewing</packagereq>
+         <packagereq type="default">ibus-pinyin</packagereq>
+         <packagereq type="default">ibus-pinyin-open-phrase</packagereq>
+         <packagereq type="default">m17n-db-datafiles</packagereq>
+         <packagereq type="default">m17n-db-keyboard-table</packagereq>
+         <packagereq type="default">ibus-qt3</packagereq>
+         <packagereq type="default">ibus-qt</packagereq>
+         <packagereq type="default">ibus-m17n</packagereq>
+         <packagereq type="default">ibus-hana</packagereq>
+         <packagereq type="default">iok</packagereq>
+         <packagereq type="default">m17n-db</packagereq>
+         <packagereq type="default">m17n-db-flt</packagereq>
+         <packagereq type="default">m17n-lib</packagereq>
+         <packagereq type="default">m17n-lib-anthy</packagereq>
+         <packagereq type="default">m17n-lib-flt</packagereq>
+         <packagereq type="default">m17n-db-keyboard-table-</packagereq>
+         <packagereq type="default">automount</packagereq>
+    	 <packagereq type="default">wireless-tools</packagereq>
+         <packagereq type="default">libkttsproject</packagereq>
+         <packagereq type="default">bonjour</packagereq>
+         <packagereq type="default">binutils</packagereq>
+         <packagereq type="default">dash</packagereq>
+         <packagereq type="default">dracut</packagereq>
+         <packagereq type="default">kpartx</packagereq>
+         <packagereq type="default">mdadm</packagereq>
+         <packagereq type="default">libaio</packagereq>
+	 <packagereq type="default">libc-client</packagereq>
+	 <packagereq type="default">libtidy</packagereq>
+	 <packagereq type="default">recode</packagereq>
+	 <packagereq type="default">pcsc-lite</packagereq>
+	 <packagereq type="default">foomatic-filters</packagereq>
+	 <packagereq type="default">bitmap-fonts</packagereq>
+	 <packagereq type="default">imsettings-libs</packagereq>
+	 <packagereq type="default">PolicyKit</packagereq>
+	 <packagereq type="default">ghostscript-cups</packagereq>
+    	 <packagereq type="default">qt4</packagereq>
+    	 <packagereq type="default">qt4-x11</packagereq>
+    	 <packagereq type="default">qt4-mysql</packagereq>
+    	 <packagereq type="default">qt4-sqlite</packagereq>
+    	 <packagereq type="default">qt4-theme-dawn</packagereq>
+    	 <packagereq type="default">phonon-backend-gstreamer</packagereq>
+         <packagereq type="default">ccrypt</packagereq>
+         <packagereq type="default">filecrypt</packagereq>
+         <packagereq type="default">firewall</packagereq>
+         <packagereq type="default">snort</packagereq>
+         <packagereq type="default">esig-cb</packagereq>
+         <packagereq type="default">esig-cb-db</packagereq>
+        </packagelist>
+    </group>
+    
+    <category>
+    	<id>app</id>
+    	<name>Applications</name>
+    	<name xml:lang="ko_KP">응용프로그람</name>
+    	<description>Applications for a variety of tasks</description>
+    	<description xml:lang="ko_KP">여러가지 응용프로그람들을 포함하고 있습니다.</description>
+    	<display_order>20</display_order>
+    	<grouplist>
+    	    <groupid>Addressbook</groupid>
+    	    <groupid>kCal</groupid>
+    	    <groupid>Mail</groupid>
+    	    <groupid>Firefox</groupid>
+    	    <groupid>PhotoBooth</groupid>
+    	    <groupid>Stickies</groupid>
+    	    <groupid>rgjanggi</groupid>
+    	    <groupid>MusicScore</groupid>
+    	    <groupid>kooka</groupid>
+    	</grouplist>
+    </category>
+    
+    <category>
+    	<id>utility</id>
+    	<name>Utility</name>
+    	<name xml:lang="ko_KP">보조프로그람</name>
+    	<description>In addition, install various programs.</description>
+    	<description xml:lang="ko_KP">여러가지 다양한 기능을 가진 프로그람들을 설치합니다.</description>
+    	<display_order>50</display_order>
+    	<grouplist>
+    	    <groupid>office</groupid>
+    	    <groupid>PDFEditor</groupid>
+    	    <groupid>Networkutility</groupid>
+    	    <groupid>Gimp</groupid>
+    	    <groupid>kPhoto</groupid>
+    	    <groupid>K3B</groupid>
+    	    <groupid>chmviewer</groupid>
+    	    <groupid>crosswin</groupid>
+    	    <groupid>Keychain</groupid>
+    	    <groupid>SysPro</groupid>
+    	    <groupid>FontBook</groupid>
+    	    <groupid>flash</groupid>
+    	    <groupid>logviewer</groupid>
+    	    <groupid>bokem</groupid>
+    	    <groupid>compress</groupid>
+    	</grouplist>
+    </category>
+  <category>
+    <id>development</id>
+    <name>Development</name>
+    <name xml:lang="ko_KP">개발도구</name>
+    <description>Packages which provide functionality for developing and building applications.</description>
+    <description xml:lang="ko_KP">쏘프트웨어개발에 필요한 도구들과 서고, 프로그람들을 포함합니다.</description>
+    <display_order>65</display_order>
+    <default>false</default>
+    <grouplist>
+      <groupid>development-libs</groupid>
+      <groupid>development-tools</groupid>
+      <groupid>kde-software-development</groupid>
+      <groupid>samtaesung</groupid>
+      <groupid>develeditor</groupid>
+      <groupid>qt4-development</groupid>
+      <groupid>eclipse</groupid>
+      <groupid>lamp</groupid>
+    </grouplist>
+  </category>
+</comps>
+
+

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+space=`df / | xargs | cut -d" " -f11`
+if [ $space -lt 10000 ]; then
+    kdialog --caption "설치오유" --error "설치를 위한 디스크공간이 부족합니다."
+    exit 1
+fi
+
+export MODULEPATH=/tmp/rssetup
+export SOURCEPATH="$0"
+echo $SOURCEPATH | grep "^/" || export SOURCEPATH=`pwd`/autorun
+mkdir -p $MODULEPATH
+DIRNAME=`dirname "$0"`
+
+cp -f "$0" $MODULEPATH
+#cp "$DIRNAME/setupmodules/setdata" $MODULEPATH
+cp -f "$DIRNAME/install" $MODULEPATH
+cp -f "$DIRNAME/.discinfo" $MODULEPATH
+cp -Rf "$DIRNAME/setupmodules" $MODULEPATH
+
+exec $MODULEPATH/setupmodules/setdata

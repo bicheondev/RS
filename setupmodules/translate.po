@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-13 11:01-0500\n"
+"PO-Revision-Date: 2004-11-01 11:37+0900\n"
+"Last-Translator: root <root@yds>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Yes"
+msgstr "예"
+
+msgid "No"
+msgstr "아 니"
+
+msgid "Upgrade"
+msgstr "갱 신"
+
+msgid "Name"
+msgstr "이 름" 
+
+msgid "Copyright"
+msgstr "판 본"
+
+msgid "Summary"
+msgstr "개 요"
+
+msgid "searching..."
+msgstr "검색중입니다."
+
+msgid "for upgrade, click Next"
+msgstr "《다음》단추를 누르면 체계를 갱신합니다."
+
+msgid "there is no item for upgrade."
+msgstr "갱신할 항목이 없습니다."
+
+msgid "Please insert installation CD, or click Cancel to abort."
+msgstr  "《붉은별》사용자용체계 3.0판 CD를 넣어주십시오.\n갱신설치를 진행하지 않으려면 《취소》단추를 누르십시오."
+
+msgid "Confirm"
+msgstr "확 인"
+
+msgid "Cancel"
+msgstr "취 소"
+
+msgid "You need to restart the computer for a system installation.\nRestart now?"
+msgstr "붉은별을 설치하려면 체계를 재기동하여야 합니다.\n\r재기동하겠습니까?"
+
+msgid "Upgrading is finished. for using new system rebooting is needed. eject installation media and click OK."
+msgstr "체계갱신이 완료되였습니다.\n갱신된 체계를 사용하려면 체계를 재기동해야 합니다.\n설치매체를 제거하고 《확인》단추를 누르십시오."
+
+msgid "RedStar3.0_Install"
+msgstr "《붉은별》사용자용체계 3.0판 설치"
+
+msgid "Previous"
+msgstr "이 전"
+
+msgid "Next"
+msgstr "다 음"
+
+msgid "Finish"
+msgstr "끝"
+
+msgid "Done"
+msgstr "완 료"
+
+msgid "Retry"
+msgstr "재시도"
+
+msgid "Error is occured while preparing installation. seemed too long url seted install image path"
+msgstr "설치를 준비하던중 오유가 발생하였습니다.\n설치판본경로가 너무 길게 설정되였습니다."
+
+msgid "Error is occured while preparing installation."
+msgstr "설치준비에서 오유가 발생하였습니다."
+
+msgid "Error is occured while processing installation."
+msgstr "설치도중 오유가 발생하였습니다."
+
+msgid "You need to restart the computer for a system installation. Eject installation media and reboot"
+msgstr "체계를 설치하려면 재기동을 하여야 합니다.\n설치매체를 제거하고 기동하여주십시오."
+
+msgid "Error is occured while preparing installation. seemed wrong installation version."
+msgstr "체계갱신을 준비하던중 오유가 발생하였습니다.\n설치판본이 정확한가 검사하여주십시오."
+
+msgid "Install"
+msgstr "설 치"
+
+msgid " Setup"
+msgstr " 설치"
+
+msgid "Install RedStar3"
+msgstr "《붉은별》사용자용체계 3.0판을 설치합니다."
+
+msgid "Upgrade current system."
+msgstr "현재 체계를 갱신하여줍니다."
+
+msgid "Exit program."
+msgstr "프로그람을 끝냅니다."
+
+msgid "Exit(_Q)"
+msgstr "끝내기(_Q)"
+
+msgid "Upgrading is finished."
+msgstr "체계갱신이 끝났습니다."
+
+msgid "Cancel Install\n"
+msgstr "설치취소\n"
+
+msgid "Exit Install\n"
+msgstr "설치완료\n"
+
+msgid "Skip"
+msgstr "뛰여넘기"
+
+msgid "Cancel Install"
+msgstr "설치취소"
+
+msgid "open failed\n"
+msgstr "열기오유\n"
+
+msgid "install failed\n"
+msgstr "설치오유\n"
+
+msgid "Abort install?"
+msgstr "설치를 끝내겠습니까?"
+
+msgid "%dMB needed."
+msgstr "%dMB 필요합니다."
+
+msgid "System is rebooting..."
+msgstr "체계는 지금 재기동을 하고 있습니다.\n 잠시 기다려주십시오."
+
+msgid "You are using non iMac-Setup program. \nTry again using iMac_Setup program"
+msgstr "지금 리용하는것은 iMac용 설치프로그람이 아닙니다. \niMac용 설치프로그람을 리용하여 다시 설치하십시오."
+
+msgid "Install Error"
+msgstr "설치오유"
+
+msgid "Can not install with normal user"
+msgstr "일반사용자에서는 설치할수 없습니다."

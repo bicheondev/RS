@@ -1,0 +1,5 @@
+[rs-core-03000]
+enabled = 1
+name = 《붉은별》사용자용체계 3.0판
+gpgcheck = 0
+proxycheck = 0
